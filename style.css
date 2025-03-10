@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.cajaGeneral div{
+    display: inline-block;
+}
+div .androideRDR img{
+    filter: drop-shadow(10px 10px 10px grey);
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+div>.cajaGeneral{
+    height: 100px;
+    width: 100px;
+}
+div .lapiz_lazuly img{
+    filter: drop-shadow(10px 10px 10px rgb(255, 255, 255));
+}
+div .androide19 img{
+    filter: drop-shadow(10px 10px 10px grey)
+}
