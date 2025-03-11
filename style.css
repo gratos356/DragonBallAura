@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: black;
+    background-color: rgb(1, 0, 26);
 }
 .cajaGeneral div{
     display: inline-block;
@@ -23,4 +23,37 @@ div .lapiz_lazuly img{
 }
 div .androide19 img{
     filter: drop-shadow(10px 10px 10px grey)
+}
+div .androide16 img{
+    filter: drop-shadow(10px 10px 10px rgb(255, 255, 255));
+}
+div .androide13 img{
+    filter: drop-shadow(10px 10px 10px grey)
+}
+div .dende img{
+    filter: drop-shadow(10px 10px 10px blue);
+}
+div .babidi img{
+    filter: drop-shadow(10px 10px 10px darkred);
+}
+div .bardock img{
+    filter: drop-shadow(10px 10px 10px lightblue);
+}
+div .bills img{
+    filter: drop-shadow(10px 10px 10px darkviolet);
+}
+div .bulma img{
+    filter: drop-shadow(10px 10px 10px black);
+}
+div .buGordo img{
+    filter: drop-shadow(10px 10px 10px rgb(139, 44, 60));
+}
+div .cell img{
+    filter: drop-shadow(10px 10px 10px gold);
+}
+div .milk img{
+    filter: drop-shadow(10px 10px 10px black)
+}
+div .dispo img{
+    filter: drop-shadow(10px 10px 10px darkred);
 }
