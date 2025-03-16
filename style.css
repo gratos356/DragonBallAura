@@ -4,13 +4,27 @@
 body{
     background-color: rgb(1, 0, 26);
 }
-.cajaGeneral div{
-    display: inline-block;
+.cajaGeneral {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
 }
-div .androideRDR img{
-    filter: drop-shadow(10px 10px 10px grey);
+
+.cajaGeneral > div {
+    width: 150px; 
+    text-align: center;
 }
+
+.cajaGeneral img {
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+}
+
 img{
+    border: 1px grey solid;
     height: 200px;
     width: 200px;
 }
@@ -18,42 +32,264 @@ div>.cajaGeneral{
     height: 100px;
     width: 100px;
 }
-div .lapiz_lazuly img{
+.androideRDR img{
+    filter: drop-shadow(10px 10px 10px grey);
+}
+.lapiz_lazuly img{
     filter: drop-shadow(10px 10px 10px rgb(255, 255, 255));
 }
-div .androide19 img{
+.androide19 img{
     filter: drop-shadow(10px 10px 10px grey)
 }
-div .androide16 img{
+.androide16 img{
     filter: drop-shadow(10px 10px 10px rgb(255, 255, 255));
 }
-div .androide13 img{
+.androide13 img{
     filter: drop-shadow(10px 10px 10px grey)
 }
-div .dende img{
+.dende img{
     filter: drop-shadow(10px 10px 10px blue);
 }
-div .babidi img{
+.babidi img{
     filter: drop-shadow(10px 10px 10px darkred);
 }
-div .bardock img{
+.bardock img{
     filter: drop-shadow(10px 10px 10px lightblue);
 }
-div .bills img{
-    filter: drop-shadow(10px 10px 10px darkviolet);
+.bills img{
+    filter: drop-shadow(10px 10px 10px darkviolet );
 }
-div .bulma img{
+.bulma img{
+    height: 200px;
+    width: 100px;
     filter: drop-shadow(10px 10px 10px black);
 }
-div .buGordo img{
+.buGordo img{
     filter: drop-shadow(10px 10px 10px rgb(139, 44, 60));
 }
-div .cell img{
+.cell img{
     filter: drop-shadow(10px 10px 10px gold);
 }
-div .milk img{
+.milk img{
+    margin-left: 25px;
+    height: 200px;
+    width: 100px;
     filter: drop-shadow(10px 10px 10px black)
 }
-div .dispo img{
+.dispo img{
     filter: drop-shadow(10px 10px 10px darkred);
+}
+.dodoria img{
+    filter: drop-shadow(10px 10px 10px rgb(212, 214, 255));
+}
+.doctroGro img{
+    filter: drop-shadow(10px 10px 10px white);
+}
+.yamcha img{
+    filter: drop-shadow(10px 10px 10px white);
+}
+.frezer img{
+    filter: drop-shadow(10px 10px 10px darkred);
+}
+.Feginyu img{
+    filter: drop-shadow(10px 10px 10px rgb(62, 0, 0));
+}
+.ginyu img {
+    filter: drop-shadow(3px 3px 5px #ff0000);
+}
+
+.goku img {
+    margin-left: 25px;
+    height: 200px;
+    width: 100px;
+    filter: drop-shadow(3px 3px 5px #ff9900);
+}
+
+.vegeta img {
+    margin-left: 25px;
+    height: 200px;
+    width: 100px;
+    filter: drop-shadow(3px 3px 5px #0000ff);
+}
+
+.gohan img {
+    height: 200px;
+    width: 150px;
+    filter: drop-shadow(3px 3px 5px #00cc66);
+}
+
+.gotenks img {
+    filter: drop-shadow(3px 3px 5px #cc00ff);
+}
+
+.granKaio img {
+    filter: drop-shadow(3px 3px 5px #996600);
+}
+
+.sagradoKaio img {
+    filter: drop-shadow(3px 3px 5px #0099cc);
+}
+
+.granSacerdote img {
+    filter: drop-shadow(3px 3px 5px #6600cc);
+}
+
+.jiren img {
+    margin-left: 25px;
+    height: 200px;
+    width: 100px;
+    filter: drop-shadow(3px 3px 5px #990000);
+}
+
+.kaioEste img {
+    filter: drop-shadow(3px 3px 5px #3366ff);
+}
+
+.kaioOeste img {
+    filter: drop-shadow(3px 3px 5px #339966);
+}
+
+.kaiosama img {
+    filter: drop-shadow(3px 3px 5px #cc0066);
+}
+
+.kaioSur img {
+    filter: drop-shadow(3px 3px 5px #ffcc00);
+}
+
+.shinEste img {
+    margin-left: 25px;
+    height: 200px;
+    width: 100px;
+    filter: drop-shadow(3px 3px 5px #cc3300);
+}
+
+.shinNorte img {
+    filter: drop-shadow(3px 3px 5px #009999);
+}
+
+.shinOeste img {
+    filter: drop-shadow(3px 3px 5px #ff6699);
+}
+
+.sinSur img {
+    filter: drop-shadow(3px 3px 5px #3333cc);
+}
+
+.kibito img {
+    filter: drop-shadow(3px 3px 5px #66cc33);
+}
+
+.kibitoshin img {
+    filter: drop-shadow(3px 3px 5px #cc33cc);
+}
+
+.krilin img {
+    margin-top: 50px;
+    margin-left: 25px;
+    height: 150px;
+    width: 100px;
+    filter: drop-shadow(3px 3px 5px #ff6666);
+}
+
+.lunch img {
+    margin-left: 25px;
+    height: 200px;
+    width: 100px;
+    filter: drop-shadow(3px 3px 5px #99ccff);
+}
+
+.margarita img {
+    height: 200px;
+    width: 100px;
+    filter: drop-shadow(3px 3px 5px #ff99cc);
+}
+
+.mrSatan img {
+    height: 200px;
+    width: 150px;
+    filter: drop-shadow(3px 3px 5px #666633);
+}
+
+.nail img {
+    filter: drop-shadow(3px 3px 5px #339933);
+}
+
+.picolo img {
+    filter: drop-shadow(3px 3px 5px #33cc33);
+}
+
+.raditz img {
+    margin-left: 25px;
+    height: 200px;
+    width: 100px;
+    filter: drop-shadow(3px 3px 5px #cc6600);
+}
+
+.roshi img {
+    margin-left: 25px;
+    height: 200px;
+    width: 100px;
+    filter: drop-shadow(3px 3px 5px #ffcc99);
+}
+
+.tenshinhan img {
+    margin-left: 25px;
+    height: 200px;
+    width: 100px;
+    filter: drop-shadow(3px 3px 5px #6666ff);
+}
+
+.ssj4 img {
+    filter: drop-shadow(3px 3px 5px #ff0033);
+}
+
+.topo img {
+    filter: drop-shadow(3px 3px 5px #663300);
+}
+
+.kidTrunks img {
+    margin-left: 25px;
+    height: 200px;
+    width: 100px;
+    filter: drop-shadow(3px 3px 5px #9999ff);
+}
+
+.vermound img {
+    margin-left: 25px;
+    height: 200px;
+    width: 100px;
+    filter: drop-shadow(3px 3px 5px #cc0000);
+}
+
+.whis img {
+    margin-left: 25px;
+    height: 200px;
+    width: 100px;
+    filter: drop-shadow(3px 3px 5px #99ffff);
+}
+
+.zarbon img {
+    margin-left: 25px;
+    height: 200px;
+    width: 100px;   
+    filter: drop-shadow(3px 3px 5px #00cc99);
+}
+
+.zenosama img {
+    margin-left: 25px;
+    margin-top: 100px;
+    height: 100px;
+    width: 100px;
+    filter: drop-shadow(3px 3px 5px #9933ff);
+}
+.nombre {
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #00053b;
+    padding: 4px 6px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
 }
