@@ -305,7 +305,14 @@ div>.cajaGeneral{
     width: 150px;
     filter: drop-shadow(3px 3px 5px #6666ff);
 }
+.ssj4 img{
+    margin-left: -25px;
+    height: 200px;
+    width: 200px;
+}
 .ssj4 img:hover {
+    height: 250px;
+    width: 250px;
     filter: drop-shadow(3px 3px 5px #ff0033);
 }
 
