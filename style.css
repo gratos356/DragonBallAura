@@ -22,79 +22,94 @@ body{
     display: block;
     border-radius: 8px;
 }
-
-img{
+.cajaGeneral>div{
     border: 1px grey solid;
+}
+img{
     height: 200px;
     width: 200px;
+}
+img:hover{
+    height:250px ;
+    width: 250px;
 }
 div>.cajaGeneral{
     height: 100px;
     width: 100px;
 }
-.androideRDR img{
+.androideRDR img:hover{
     filter: drop-shadow(10px 10px 10px grey);
 }
-.lapiz_lazuly img{
+.lapiz_lazuly img:hover{
     filter: drop-shadow(10px 10px 10px rgb(255, 255, 255));
 }
-.androide19 img{
+.androide19 img:hover{
     filter: drop-shadow(10px 10px 10px grey)
 }
-.androide16 img{
+.androide16 img:hover{
     filter: drop-shadow(10px 10px 10px rgb(255, 255, 255));
 }
-.androide13 img{
+.androide13 img:hover{
     filter: drop-shadow(10px 10px 10px grey)
 }
-.dende img{
+.dende img:hover{
     filter: drop-shadow(10px 10px 10px blue);
 }
-.babidi img{
+.babidi img:hover{
     filter: drop-shadow(10px 10px 10px darkred);
 }
-.bardock img{
+.bardock img:hover{
     filter: drop-shadow(10px 10px 10px lightblue);
 }
-.bills img{
+.bills img:hover{
     filter: drop-shadow(10px 10px 10px darkviolet );
 }
 .bulma img{
+    margin-left: 25px;
     height: 200px;
     width: 100px;
-    filter: drop-shadow(10px 10px 10px black);
 }
-.buGordo img{
+.bulma img:hover{
+    filter: drop-shadow(10px 10px 10px black);
+    height:250px ;
+    width: 150px;
+}
+.buGordo img:hover{
     filter: drop-shadow(10px 10px 10px rgb(139, 44, 60));
 }
-.cell img{
+.cell img:hover{
     filter: drop-shadow(10px 10px 10px gold);
 }
 .milk img{
     margin-left: 25px;
     height: 200px;
     width: 100px;
-    filter: drop-shadow(10px 10px 10px black)
 }
-.dispo img{
+.milk img:hover{
+    filter: drop-shadow(10px 10px 10px black);
+    height: 250px;
+    width: 150px;
+
+}
+.dispo img:hover{
     filter: drop-shadow(10px 10px 10px darkred);
 }
-.dodoria img{
+.dodoria img:hover{
     filter: drop-shadow(10px 10px 10px rgb(212, 214, 255));
 }
-.doctroGro img{
+.doctroGro img:hover{
     filter: drop-shadow(10px 10px 10px white);
 }
-.yamcha img{
+.yamcha img:hover{
     filter: drop-shadow(10px 10px 10px white);
 }
-.frezer img{
+.frezer img:hover{
     filter: drop-shadow(10px 10px 10px darkred);
 }
-.Feginyu img{
+.Feginyu img:hover{
     filter: drop-shadow(10px 10px 10px rgb(62, 0, 0));
 }
-.ginyu img {
+.ginyu img:hover {
     filter: drop-shadow(3px 3px 5px #ff0000);
 }
 
@@ -102,85 +117,112 @@ div>.cajaGeneral{
     margin-left: 25px;
     height: 200px;
     width: 100px;
-    filter: drop-shadow(3px 3px 5px #ff9900);
+}
+.goku img:hover{
+    filter: drop-shadow(3px 3px 5px #f0f94b);
+    height: 250px;
+    width: 150px;
 }
 
 .vegeta img {
     margin-left: 25px;
     height: 200px;
     width: 100px;
+}
+.vegeta img:hover{
     filter: drop-shadow(3px 3px 5px #0000ff);
+    height: 250px;
+    width: 150px;
 }
 
 .gohan img {
     height: 200px;
     width: 150px;
-    filter: drop-shadow(3px 3px 5px #00cc66);
+}
+.gohan img:hover{
+    filter: drop-shadow(3px 3px 5px #ff0000);
+    height: 300px;
+    width: 200px;
 }
 
-.gotenks img {
+.gotenks img:hover {
     filter: drop-shadow(3px 3px 5px #cc00ff);
 }
 
-.granKaio img {
+.granKaio img:hover {
     filter: drop-shadow(3px 3px 5px #996600);
 }
 
-.sagradoKaio img {
+.sagradoKaio img:hover {
     filter: drop-shadow(3px 3px 5px #0099cc);
 }
 
-.granSacerdote img {
-    filter: drop-shadow(3px 3px 5px #6600cc);
+.granSacerdote img:hover {
+    filter: drop-shadow(3px 3px 5px #7970f8);
 }
-
-.jiren img {
+.jiren img{
     margin-left: 25px;
     height: 200px;
     width: 100px;
-    filter: drop-shadow(3px 3px 5px #990000);
+
+}
+.jiren img:hover{
+    filter: drop-shadow(3px 3px 5px #ff0000);
+    height: 250px;
+    width: 150px;
 }
 
-.kaioEste img {
+.kaioEste img:hover {
     filter: drop-shadow(3px 3px 5px #3366ff);
 }
 
-.kaioOeste img {
+.kaioOeste img:hover {
     filter: drop-shadow(3px 3px 5px #339966);
 }
 
-.kaiosama img {
+.kaiosama img:hover {
     filter: drop-shadow(3px 3px 5px #cc0066);
 }
 
-.kaioSur img {
+.kaioSur img:hover {
     filter: drop-shadow(3px 3px 5px #ffcc00);
 }
 
-.shinEste img {
+.shinEste img{
     margin-left: 25px;
     height: 200px;
     width: 100px;
+}
+.shinEste img:hover{
+    height: 250px;
+    width: 150px;
     filter: drop-shadow(3px 3px 5px #cc3300);
 }
 
 .shinNorte img {
+    height: 200px;
+    width: 150px;
+}
+.shinNorte img:hover{
     filter: drop-shadow(3px 3px 5px #009999);
+    height: 250px;
+    width: 200px;
+
 }
 
-.shinOeste img {
+.shinOeste img:hover {
     filter: drop-shadow(3px 3px 5px #ff6699);
 }
 
-.sinSur img {
+.sinSur img:hover {
     filter: drop-shadow(3px 3px 5px #3333cc);
 }
 
-.kibito img {
+.kibito img:hover {
     filter: drop-shadow(3px 3px 5px #66cc33);
 }
 
-.kibitoshin img {
+.kibitoshin img:hover {
     filter: drop-shadow(3px 3px 5px #cc33cc);
 }
 
@@ -189,6 +231,10 @@ div>.cajaGeneral{
     margin-left: 25px;
     height: 150px;
     width: 100px;
+}
+.krilin img:hover{
+    height: 200px;
+    width: 150px;
     filter: drop-shadow(3px 3px 5px #ff6666);
 }
 
@@ -196,26 +242,36 @@ div>.cajaGeneral{
     margin-left: 25px;
     height: 200px;
     width: 100px;
-    filter: drop-shadow(3px 3px 5px #99ccff);
 }
-
+.lunch img:hover{
+    filter: drop-shadow(3px 3px 5px #99ccff);
+    height: 250px;
+    width: 150px;
+}
 .margarita img {
     height: 200px;
     width: 100px;
-    filter: drop-shadow(3px 3px 5px #ff99cc);
+    margin-left: 25px;
 }
-
+.margarita img:hover{
+    filter: drop-shadow(3px 3px 5px #ff99cc);
+    height: 250px;
+    width: 150px;
+}
 .mrSatan img {
     height: 200px;
     width: 150px;
-    filter: drop-shadow(3px 3px 5px #666633);
 }
-
-.nail img {
+.mrSatan img:hover{
+    filter: drop-shadow(3px 3px 5px #666633);
+    height: 250px;
+    width: 200px;
+}
+.nail img:hover {
     filter: drop-shadow(3px 3px 5px #339933);
 }
 
-.picolo img {
+.picolo img:hover {
     filter: drop-shadow(3px 3px 5px #33cc33);
 }
 
@@ -223,28 +279,37 @@ div>.cajaGeneral{
     margin-left: 25px;
     height: 200px;
     width: 100px;
-    filter: drop-shadow(3px 3px 5px #cc6600);
 }
-
+.raditz img:hover{
+    filter: drop-shadow(3px 3px 5px #cc6600);
+    height: 250px;
+    width: 150px;
+}
 .roshi img {
     margin-left: 25px;
     height: 200px;
     width: 100px;
+}
+.roshi img:hover{
+    height: 250px;
+    width: 150px;
     filter: drop-shadow(3px 3px 5px #ffcc99);
 }
-
 .tenshinhan img {
     margin-left: 25px;
     height: 200px;
     width: 100px;
+}
+.tenshinhan img:hover{
+    height: 250px;
+    width: 150px;
     filter: drop-shadow(3px 3px 5px #6666ff);
 }
-
-.ssj4 img {
+.ssj4 img:hover {
     filter: drop-shadow(3px 3px 5px #ff0033);
 }
 
-.topo img {
+.topo img:hover {
     filter: drop-shadow(3px 3px 5px #663300);
 }
 
@@ -252,6 +317,10 @@ div>.cajaGeneral{
     margin-left: 25px;
     height: 200px;
     width: 100px;
+}
+.kidTrunks img:hover{
+    height: 250px;
+    width: 150px;
     filter: drop-shadow(3px 3px 5px #9999ff);
 }
 
@@ -259,13 +328,20 @@ div>.cajaGeneral{
     margin-left: 25px;
     height: 200px;
     width: 100px;
+}
+.vermound img:hover{
+    height: 250px;
+    width: 150px;
     filter: drop-shadow(3px 3px 5px #cc0000);
 }
-
 .whis img {
     margin-left: 25px;
     height: 200px;
     width: 100px;
+}
+.whis img:hover{
+    height: 250px;
+    width: 150px;
     filter: drop-shadow(3px 3px 5px #99ffff);
 }
 
@@ -273,6 +349,10 @@ div>.cajaGeneral{
     margin-left: 25px;
     height: 200px;
     width: 100px;   
+}
+.zarbon img:hover{
+    height: 250px;
+    width: 150px;
     filter: drop-shadow(3px 3px 5px #00cc99);
 }
 
@@ -281,6 +361,10 @@ div>.cajaGeneral{
     margin-top: 100px;
     height: 100px;
     width: 100px;
+}
+.zenosama img:hover{
+    height: 150px;
+    width: 150px;
     filter: drop-shadow(3px 3px 5px #9933ff);
 }
 .nombre {
