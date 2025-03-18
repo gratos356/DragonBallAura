@@ -28,40 +28,56 @@ body{
 img{
     height: 200px;
     width: 200px;
+    transition: 2s;
 }
-img:hover{
-    height:250px ;
-    width: 250px;
-}
+
 div>.cajaGeneral{
     height: 100px;
     width: 100px;
 }
 .androideRDR img:hover{
+    transform: scale3d(2,2,2);
+    transition: 2s;
     filter: drop-shadow(10px 10px 10px grey);
 }
 .lapiz_lazuly img:hover{
+    transform: scale3d(2,2,2);
+    transition: 2s;
     filter: drop-shadow(10px 10px 10px rgb(255, 255, 255));
 }
 .androide19 img:hover{
+    transform: scale3d(2,2,2);
+    transition: 2s;
     filter: drop-shadow(10px 10px 10px grey)
 }
 .androide16 img:hover{
+    transform: scale3d(2,2,2);
+    transition: 2s;
     filter: drop-shadow(10px 10px 10px rgb(255, 255, 255));
 }
 .androide13 img:hover{
+    transform: scale3d(2,2,2);
+    transition: 2s;
     filter: drop-shadow(10px 10px 10px grey)
 }
 .dende img:hover{
+    transform: scale3d(2,2,2);
+    transition: 2s;
     filter: drop-shadow(10px 10px 10px blue);
 }
 .babidi img:hover{
+    transform: scale3d(2,2,2);
+    transition: 2s;
     filter: drop-shadow(10px 10px 10px darkred);
 }
 .bardock img:hover{
+    transform: scale3d(2,2,2);
+    transition: 2s;
     filter: drop-shadow(10px 10px 10px lightblue);
 }
 .bills img:hover{
+    transform: scale3d(2,2,2);
+    transition: 2s;
     filter: drop-shadow(10px 10px 10px darkviolet );
 }
 .bulma img{
@@ -71,13 +87,17 @@ div>.cajaGeneral{
 }
 .bulma img:hover{
     filter: drop-shadow(10px 10px 10px black);
-    height:250px ;
-    width: 150px;
+    transform: scale3d(2,2,2);
+    transition: 2s;
 }
 .buGordo img:hover{
+    transform: scale3d(2,2,2);
+    transition: 2s;
     filter: drop-shadow(10px 10px 10px rgb(139, 44, 60));
 }
 .cell img:hover{
+    transform: scale3d(2,2,2);
+    transition: 2s;
     filter: drop-shadow(10px 10px 10px gold);
 }
 .milk img{
@@ -87,29 +107,43 @@ div>.cajaGeneral{
 }
 .milk img:hover{
     filter: drop-shadow(10px 10px 10px black);
-    height: 250px;
-    width: 150px;
+    transform: scale3d(2,2,2);
+    transition: 2s;
 
 }
 .dispo img:hover{
+    transform: scale3d(2,2,2);
+    transition: 2s;
     filter: drop-shadow(10px 10px 10px darkred);
 }
 .dodoria img:hover{
+    transform: scale3d(2,2,2);
+    transition: 2s;
     filter: drop-shadow(10px 10px 10px rgb(212, 214, 255));
 }
 .doctroGro img:hover{
+    transform: scale3d(2,2,2);
+    transition: 2s;
     filter: drop-shadow(10px 10px 10px white);
 }
 .yamcha img:hover{
+    transform: scale3d(2,2,2);
+    transition: 2s;
     filter: drop-shadow(10px 10px 10px white);
 }
 .frezer img:hover{
+    transform: scale3d(2,2,2);
+    transition: 2s;
     filter: drop-shadow(10px 10px 10px darkred);
 }
 .Feginyu img:hover{
+    transform: scale3d(2,2,2);
+    transition: 2s;
     filter: drop-shadow(10px 10px 10px rgb(62, 0, 0));
 }
 .ginyu img:hover {
+    transform: scale3d(2,2,2);
+    transition: 2s;
     filter: drop-shadow(3px 3px 5px #ff0000);
 }
 
@@ -120,8 +154,8 @@ div>.cajaGeneral{
 }
 .goku img:hover{
     filter: drop-shadow(3px 3px 5px #f0f94b);
-    height: 250px;
-    width: 150px;
+    transform: scale3d(2,2,2);
+    transition: 2s;
 }
 
 .vegeta img {
@@ -131,8 +165,8 @@ div>.cajaGeneral{
 }
 .vegeta img:hover{
     filter: drop-shadow(3px 3px 5px #0000ff);
-    height: 250px;
-    width: 150px;
+    transform: scale3d(2,2,2);
+    transition: 2s;
 }
 
 .gohan img {
@@ -141,23 +175,31 @@ div>.cajaGeneral{
 }
 .gohan img:hover{
     filter: drop-shadow(3px 3px 5px #ff0000);
-    height: 300px;
-    width: 200px;
+    transform: scale3d(2,2,2);
+    transition: 2s;
 }
 
 .gotenks img:hover {
+    transform: scale3d(2,2,2);
+    transition: 2s;
     filter: drop-shadow(3px 3px 5px #cc00ff);
 }
 
 .granKaio img:hover {
+    transform: scale3d(2,2,2);
+    transition: 2s;
     filter: drop-shadow(3px 3px 5px #996600);
 }
 
 .sagradoKaio img:hover {
+    transform: scale3d(2,2,2);
+    transition: 2s;
     filter: drop-shadow(3px 3px 5px #0099cc);
 }
 
 .granSacerdote img:hover {
+    transform: scale3d(2,2,2);
+    transition: 2s;
     filter: drop-shadow(3px 3px 5px #7970f8);
 }
 .jiren img{
@@ -167,24 +209,33 @@ div>.cajaGeneral{
 
 }
 .jiren img:hover{
+    
     filter: drop-shadow(3px 3px 5px #ff0000);
-    height: 250px;
-    width: 150px;
+    transform: scale3d(2,2,2);
+    transition: 2s;
 }
 
 .kaioEste img:hover {
+    transform: scale3d(2,2,2);
+    transition: 2s;
     filter: drop-shadow(3px 3px 5px #3366ff);
 }
 
 .kaioOeste img:hover {
+    transform: scale3d(2,2,2);
+    transition: 2s;
     filter: drop-shadow(3px 3px 5px #339966);
 }
 
 .kaiosama img:hover {
+    transform: scale3d(2,2,2);
+    transition: 2s;
     filter: drop-shadow(3px 3px 5px #cc0066);
 }
 
 .kaioSur img:hover {
+    transform: scale3d(2,2,2);
+    transition: 2s;
     filter: drop-shadow(3px 3px 5px #ffcc00);
 }
 
@@ -194,8 +245,8 @@ div>.cajaGeneral{
     width: 100px;
 }
 .shinEste img:hover{
-    height: 250px;
-    width: 150px;
+    transform: scale3d(2,2,2);
+    transition: 2s;
     filter: drop-shadow(3px 3px 5px #cc3300);
 }
 
@@ -205,24 +256,32 @@ div>.cajaGeneral{
 }
 .shinNorte img:hover{
     filter: drop-shadow(3px 3px 5px #009999);
-    height: 250px;
-    width: 200px;
+    transform: scale3d(2,2,2);
+    transition: 2s;
 
 }
 
 .shinOeste img:hover {
+    transform: scale3d(2,2,2);
+    transition: 2s;
     filter: drop-shadow(3px 3px 5px #ff6699);
 }
 
 .sinSur img:hover {
+    transform: scale3d(2,2,2);
+    transition: 2s;
     filter: drop-shadow(3px 3px 5px #3333cc);
 }
 
 .kibito img:hover {
+    transform: scale3d(2,2,2);
+    transition: 2s;
     filter: drop-shadow(3px 3px 5px #66cc33);
 }
 
 .kibitoshin img:hover {
+    transform: scale3d(2,2,2);
+    transition: 2s;
     filter: drop-shadow(3px 3px 5px #cc33cc);
 }
 
@@ -233,8 +292,8 @@ div>.cajaGeneral{
     width: 100px;
 }
 .krilin img:hover{
-    height: 200px;
-    width: 150px;
+    transform: scale3d(2,2,2);
+    transition: 2s;
     filter: drop-shadow(3px 3px 5px #ff6666);
 }
 
@@ -245,8 +304,8 @@ div>.cajaGeneral{
 }
 .lunch img:hover{
     filter: drop-shadow(3px 3px 5px #99ccff);
-    height: 250px;
-    width: 150px;
+    transform: scale3d(2,2,2);
+    transition: 2s;
 }
 .margarita img {
     height: 200px;
@@ -255,8 +314,8 @@ div>.cajaGeneral{
 }
 .margarita img:hover{
     filter: drop-shadow(3px 3px 5px #ff99cc);
-    height: 250px;
-    width: 150px;
+    transform: scale3d(2,2,2);
+    transition: 2s;
 }
 .mrSatan img {
     height: 200px;
@@ -264,14 +323,18 @@ div>.cajaGeneral{
 }
 .mrSatan img:hover{
     filter: drop-shadow(3px 3px 5px #666633);
-    height: 250px;
-    width: 200px;
+    transform: scale3d(2,2,2);
+    transition: 2s;
 }
 .nail img:hover {
+    transform: scale3d(2,2,2);
+    transition: 2s;
     filter: drop-shadow(3px 3px 5px #339933);
 }
 
 .picolo img:hover {
+    transform: scale3d(2,2,2);
+    transition: 2s;
     filter: drop-shadow(3px 3px 5px #33cc33);
 }
 
@@ -282,8 +345,8 @@ div>.cajaGeneral{
 }
 .raditz img:hover{
     filter: drop-shadow(3px 3px 5px #cc6600);
-    height: 250px;
-    width: 150px;
+    transform: scale3d(2,2,2);
+    transition: 2s;
 }
 .roshi img {
     margin-left: 25px;
@@ -291,8 +354,8 @@ div>.cajaGeneral{
     width: 100px;
 }
 .roshi img:hover{
-    height: 250px;
-    width: 150px;
+    transform: scale3d(2,2,2);
+    transition: 2s;
     filter: drop-shadow(3px 3px 5px #ffcc99);
 }
 .tenshinhan img {
@@ -301,8 +364,8 @@ div>.cajaGeneral{
     width: 100px;
 }
 .tenshinhan img:hover{
-    height: 250px;
-    width: 150px;
+    transform: scale3d(2,2,2);
+    transition: 2s;
     filter: drop-shadow(3px 3px 5px #6666ff);
 }
 .ssj4 img{
@@ -311,56 +374,71 @@ div>.cajaGeneral{
     width: 200px;
 }
 .ssj4 img:hover {
-    height: 250px;
-    width: 250px;
+
     filter: drop-shadow(3px 3px 5px #ff0033);
+    transform: scale3d(2,2,2);
+    transition: 2s;
 }
 
 .topo img:hover {
     filter: drop-shadow(3px 3px 5px #663300);
+    transform: scale3d(2,2,2);
+    transition: 2s;
 }
 
 .kidTrunks img {
     margin-left: 25px;
     height: 200px;
     width: 100px;
+    transition: 2s;
 }
 .kidTrunks img:hover{
-    height: 250px;
-    width: 150px;
+    /* height: 250px;
+    width: 150px; */
     filter: drop-shadow(3px 3px 5px #9999ff);
+    transform: scale3d(2,2,2);
+    transition: 2s;
 }
 
 .vermound img {
     margin-left: 25px;
     height: 200px;
     width: 100px;
+    transition: 2s;
 }
 .vermound img:hover{
-    height: 250px;
-    width: 150px;
+    /* height: 250px;
+    width: 150px; */
     filter: drop-shadow(3px 3px 5px #cc0000);
+    transform: scale3d(2,2,2);
+    transition: 2s;
 }
 .whis img {
     margin-left: 25px;
     height: 200px;
     width: 100px;
+    transition: 2s;
 }
 .whis img:hover{
-    height: 250px;
-    width: 150px;
+    /* height: 250px;
+    width: 150px; */
     filter: drop-shadow(3px 3px 5px #99ffff);
+    transform: scale3d(2,2,2);
+    transition: 2s;
 }
 
 .zarbon img {
     margin-left: 25px;
     height: 200px;
     width: 100px;   
+    transition: 2s;
 }
 .zarbon img:hover{
-    height: 250px;
-    width: 150px;
+    /* height: 250px;
+    width: 150px; */
     filter: drop-shadow(3px 3px 5px #00cc99);
+    transform: scale3d(2,2,2);
+    transition: 2s;
 }
 
 .zenosama img {
@@ -368,11 +446,15 @@ div>.cajaGeneral{
     margin-top: 100px;
     height: 100px;
     width: 100px;
+    transition: 2s;
 }
 .zenosama img:hover{
-    height: 150px;
-    width: 150px;
+    /* height: 150px;
+    width: 150px; */
     filter: drop-shadow(3px 3px 5px #9933ff);
+    transform: scale3d(2, 2, 2);
+    transition: 2s;
+    
 }
 .nombre {
     margin-top: 8px;
@@ -383,4 +465,20 @@ div>.cajaGeneral{
     padding: 4px 6px;
     border-radius: 4px;
     box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.androide16{
+    height: 250px;
+}
+.androide19{
+    height: 250px;
+}
+.androide13{
+    height: 250px;
+}
+.dende{
+    height: 250px;
+}
+.babidi{
+    height: 250px;
 }
