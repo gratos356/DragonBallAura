@@ -1,20 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Noto+Sans+JP:wght@100..900&display=swap');
 *{
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
     box-sizing: border-box;
 }
+::-webkit-scrollbar {
+    display: none;
+}
 body{
-    background-color: rgb(1, 0, 26);
+    overflow-x: hidden;
+    background-color: rgb(6, 0, 78);
+    
+    background-image: url(img/th.jpg), linear-gradient(220.55deg, #343bb614 0%, #0000016f 100%);
+    
+    background-blend-mode: screen, color-dodge, color-burn, screen, overlay, difference, color-dodge, normal;
+    
+
 }
 .cajaGeneral {
+    padding: 10px 250px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    padding: 20px;
+    
 }
 
 .cajaGeneral > div {
     width: 150px; 
     text-align: center;
+    cursor: pointer;
+    background-color: rgb(1, 1, 35);
+}
+.cajaGeneral > div:hover{
+    background-color:rgb(32, 32, 47) ;
+    transition: 2s;
+    
+}
+.cajaGeneral > div:hover .fooder p{
+    color: black;
 }
 
 .cajaGeneral img {
@@ -29,6 +54,7 @@ img{
     height: 200px;
     width: 200px;
     transition: 2s;
+    object-fit: contain;
 }
 
 div>.cajaGeneral{
@@ -38,47 +64,57 @@ div>.cajaGeneral{
 .androideRDR img:hover{
     transform: scale3d(2,2,2);
     transition: 2s;
-    filter: drop-shadow(10px 10px 10px grey);
+    filter: drop-shadow(0px 0px 10px grey);
 }
-.lapiz_lazuly img:hover{
+.androideRDR2 img:hover{
     transform: scale3d(2,2,2);
     transition: 2s;
-    filter: drop-shadow(10px 10px 10px rgb(255, 255, 255));
+    filter: drop-shadow(0px 0px 10px grey);
+}
+.N17 img:hover{
+    transform: scale3d(2,2,2);
+    transition: 2s;
+    filter: drop-shadow(0px 0px 10px rgb(255, 255, 255));
+}
+.N18 img:hover{
+    transform: scale3d(2,2,2);
+    transition: 2s;
+    filter: drop-shadow(0px 0px 10px rgb(255, 255, 255));
 }
 .androide19 img:hover{
     transform: scale3d(2,2,2);
     transition: 2s;
-    filter: drop-shadow(10px 10px 10px grey)
+    filter: drop-shadow(0px 0px 10px grey)
 }
 .androide16 img:hover{
     transform: scale3d(2,2,2);
     transition: 2s;
-    filter: drop-shadow(10px 10px 10px rgb(255, 255, 255));
+    filter: drop-shadow(0px 0px 10px rgb(255, 255, 255));
 }
 .androide13 img:hover{
     transform: scale3d(2,2,2);
     transition: 2s;
-    filter: drop-shadow(10px 10px 10px grey)
+    filter: drop-shadow(0px 0px 10px grey)
 }
 .dende img:hover{
     transform: scale3d(2,2,2);
     transition: 2s;
-    filter: drop-shadow(10px 10px 10px blue);
+    filter: drop-shadow(0px 0px 10px blue);
 }
 .babidi img:hover{
     transform: scale3d(2,2,2);
     transition: 2s;
-    filter: drop-shadow(10px 10px 10px darkred);
+    filter: drop-shadow(0px 0px 10px darkred);
 }
 .bardock img:hover{
     transform: scale3d(2,2,2);
     transition: 2s;
-    filter: drop-shadow(10px 10px 10px lightblue);
+    filter: drop-shadow(0px 0px 10px lightblue);
 }
 .bills img:hover{
     transform: scale3d(2,2,2);
     transition: 2s;
-    filter: drop-shadow(10px 10px 10px darkviolet );
+    filter: drop-shadow(0px 0px 10px darkviolet );
 }
 .bulma img{
     margin-left: 25px;
@@ -86,19 +122,19 @@ div>.cajaGeneral{
     width: 100px;
 }
 .bulma img:hover{
-    filter: drop-shadow(10px 10px 10px black);
+    filter: drop-shadow(0px 0px 10px black);
     transform: scale3d(2,2,2);
     transition: 2s;
 }
 .buGordo img:hover{
     transform: scale3d(2,2,2);
     transition: 2s;
-    filter: drop-shadow(10px 10px 10px rgb(139, 44, 60));
+    filter: drop-shadow(0px 0px 10px rgb(139, 44, 60));
 }
 .cell img:hover{
     transform: scale3d(2,2,2);
     transition: 2s;
-    filter: drop-shadow(10px 10px 10px gold);
+    filter: drop-shadow(0px 0px 10px gold);
 }
 .milk img{
     margin-left: 25px;
@@ -106,7 +142,7 @@ div>.cajaGeneral{
     width: 100px;
 }
 .milk img:hover{
-    filter: drop-shadow(10px 10px 10px black);
+    filter: drop-shadow(0px 0px 10px black);
     transform: scale3d(2,2,2);
     transition: 2s;
 
@@ -114,37 +150,41 @@ div>.cajaGeneral{
 .dispo img:hover{
     transform: scale3d(2,2,2);
     transition: 2s;
-    filter: drop-shadow(10px 10px 10px darkred);
+    filter: drop-shadow(0px 0px 10px darkred);
 }
+/* .dodoria img{
+    object-fit: contain;
+} */
 .dodoria img:hover{
+    object-fit: contain;
     transform: scale3d(2,2,2);
     transition: 2s;
-    filter: drop-shadow(10px 10px 10px rgb(212, 214, 255));
+    filter: drop-shadow(0px 0px 10px rgb(212, 214, 255));
 }
 .doctroGro img:hover{
     transform: scale3d(2,2,2);
     transition: 2s;
-    filter: drop-shadow(10px 10px 10px white);
+    filter: drop-shadow(0px 0px 10px white);
 }
 .yamcha img:hover{
     transform: scale3d(2,2,2);
     transition: 2s;
-    filter: drop-shadow(10px 10px 10px white);
+    filter: drop-shadow(0px 0px 10px white);
 }
 .frezer img:hover{
     transform: scale3d(2,2,2);
     transition: 2s;
-    filter: drop-shadow(10px 10px 10px darkred);
+    filter: drop-shadow(0px 0px 10px darkred);
 }
 .Feginyu img:hover{
     transform: scale3d(2,2,2);
     transition: 2s;
-    filter: drop-shadow(10px 10px 10px rgb(62, 0, 0));
+    filter: drop-shadow(0px 0px 10px rgb(62, 0, 0));
 }
 .ginyu img:hover {
     transform: scale3d(2,2,2);
     transition: 2s;
-    filter: drop-shadow(3px 3px 5px #ff0000);
+    filter: drop-shadow(0px 0px 5px #ff0000);
 }
 
 .goku img {
@@ -457,6 +497,7 @@ div>.cajaGeneral{
     
 }
 .nombre {
+    
     margin-top: 8px;
     font-size: 14px;
     font-weight: bold;
@@ -466,8 +507,15 @@ div>.cajaGeneral{
     border-radius: 4px;
     box-shadow: 0 0 5px rgba(0,0,0,0.2);
 }
+.fooder p{
+    color: white;
+}
+.resaltar {
+    font-weight: bold;
+    font-size: 20px;
+}
 
-.androide16{
+/* .androide16{
     height: 250px;
 }
 .androide19{
@@ -481,4 +529,4 @@ div>.cajaGeneral{
 }
 .babidi{
     height: 250px;
-}
+} */
