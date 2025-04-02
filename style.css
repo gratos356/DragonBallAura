@@ -19,7 +19,7 @@ body{
 
 }
 .cajaGeneral {
-    padding: 10px 250px;
+    padding: 10px 200px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -28,8 +28,8 @@ body{
 }
 
 .cajaGeneral > div {
-    width: 150px; 
-    text-align: center;
+    width: 200px; 
+    text-align: start;
     cursor: pointer;
     background-color: rgb(1, 1, 35);
 }
@@ -38,8 +38,16 @@ body{
     transition: 2s;
     
 }
+.fooder p:hover{
+    transform: scale3d(2,2,2);
+    transition: 2s;
+    background-color: rgba(0, 0, 139, 0.342);
+    border: black solid 1px;
+    text-shadow: 1px 1px  black;
+    
+}
 .cajaGeneral > div:hover .fooder p{
-    color: black;
+    color: red;
 }
 
 .cajaGeneral img {
@@ -117,7 +125,7 @@ div>.cajaGeneral{
     filter: drop-shadow(0px 0px 10px darkviolet );
 }
 .bulma img{
-    margin-left: 25px;
+    margin-left: 48px;
     height: 200px;
     width: 100px;
 }
@@ -137,7 +145,7 @@ div>.cajaGeneral{
     filter: drop-shadow(0px 0px 10px gold);
 }
 .milk img{
-    margin-left: 25px;
+    margin-left:48px;
     height: 200px;
     width: 100px;
 }
@@ -188,7 +196,7 @@ div>.cajaGeneral{
 }
 
 .goku img {
-    margin-left: 25px;
+    margin-left: 48px;
     height: 200px;
     width: 100px;
 }
@@ -199,7 +207,7 @@ div>.cajaGeneral{
 }
 
 .vegeta img {
-    margin-left: 25px;
+    margin-left: 48px;
     height: 200px;
     width: 100px;
 }
@@ -210,6 +218,7 @@ div>.cajaGeneral{
 }
 
 .gohan img {
+    margin-left:38px ;
     height: 200px;
     width: 150px;
 }
@@ -280,7 +289,7 @@ div>.cajaGeneral{
 }
 
 .shinEste img{
-    margin-left: 25px;
+    margin-left: 48px;
     height: 200px;
     width: 100px;
 }
@@ -291,6 +300,7 @@ div>.cajaGeneral{
 }
 
 .shinNorte img {
+    margin-left: 38px;
     height: 200px;
     width: 150px;
 }
@@ -327,7 +337,7 @@ div>.cajaGeneral{
 
 .krilin img {
     margin-top: 50px;
-    margin-left: 25px;
+    margin-left: 48px;
     height: 150px;
     width: 100px;
 }
@@ -338,7 +348,7 @@ div>.cajaGeneral{
 }
 
 .lunch img {
-    margin-left: 25px;
+    margin-left: 48px;
     height: 200px;
     width: 100px;
 }
@@ -350,7 +360,7 @@ div>.cajaGeneral{
 .margarita img {
     height: 200px;
     width: 100px;
-    margin-left: 25px;
+    margin-left: 48px;
 }
 .margarita img:hover{
     filter: drop-shadow(3px 3px 5px #ff99cc);
@@ -358,6 +368,7 @@ div>.cajaGeneral{
     transition: 2s;
 }
 .mrSatan img {
+    margin-left: 48px;
     height: 200px;
     width: 150px;
 }
@@ -379,7 +390,7 @@ div>.cajaGeneral{
 }
 
 .raditz img {
-    margin-left: 25px;
+    margin-left: 48px;
     height: 200px;
     width: 100px;
 }
@@ -389,7 +400,7 @@ div>.cajaGeneral{
     transition: 2s;
 }
 .roshi img {
-    margin-left: 25px;
+    margin-left: 48px;
     height: 200px;
     width: 100px;
 }
@@ -409,7 +420,7 @@ div>.cajaGeneral{
     filter: drop-shadow(3px 3px 5px #6666ff);
 }
 .ssj4 img{
-    margin-left: -25px;
+    
     height: 200px;
     width: 200px;
 }
@@ -427,7 +438,7 @@ div>.cajaGeneral{
 }
 
 .kidTrunks img {
-    margin-left: 25px;
+    margin-left: 48px;
     height: 200px;
     width: 100px;
     transition: 2s;
@@ -441,7 +452,7 @@ div>.cajaGeneral{
 }
 
 .vermound img {
-    margin-left: 25px;
+    margin-left: 48px;
     height: 200px;
     width: 100px;
     transition: 2s;
@@ -454,7 +465,7 @@ div>.cajaGeneral{
     transition: 2s;
 }
 .whis img {
-    margin-left: 25px;
+    margin-left: 48px;
     height: 200px;
     width: 100px;
     transition: 2s;
@@ -468,7 +479,7 @@ div>.cajaGeneral{
 }
 
 .zarbon img {
-    margin-left: 25px;
+    margin-left: 48px;
     height: 200px;
     width: 100px;   
     transition: 2s;
@@ -482,7 +493,7 @@ div>.cajaGeneral{
 }
 
 .zenosama img {
-    margin-left: 25px;
+    margin-left: 48px;
     margin-top: 100px;
     height: 100px;
     width: 100px;
@@ -497,7 +508,7 @@ div>.cajaGeneral{
     
 }
 .nombre {
-    
+    text-align: center;
     margin-top: 8px;
     font-size: 14px;
     font-weight: bold;
